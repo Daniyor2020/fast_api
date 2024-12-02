@@ -3,30 +3,30 @@ from pydantic import BaseModel
 class Blog(BaseModel):
     title: str
     body: str
+    
 
-class showBlog(Blog):
-    class Config:
-        orm_mode = True
+
         
-        
-        
-        
-"""
-    class Crawler(Base):
-        __tablename__ = "crawler"
-        id = Column(Integer, primary_key=True, index=True)
-        tags = Column(list(String))
-        perspective = Column(String)
-        source = Column(list(String))
-        scanned = Column(Integer)
-        status = Column(String)
-        
-"""
 class User(BaseModel):
     name: str
     email: str
     password: str
-
+    
+    
+class ShowUser(BaseModel):
+    name: str
+    email: str
+    blogs: list[Blog]
+    
+    class Config:
+        orm_mode = True
+        
+class showBlog(Blog):
+    title: str
+    body: str
+    creator: ShowUser
+    class Config:
+        orm_mode = True
 class TagsTable(BaseModel):
     type: str
     value: str

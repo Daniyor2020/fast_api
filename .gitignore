@@ -1,0 +1,95 @@
+# Ignore all files in the .idea directory
+/.idea/
+
+# Ignore all files in the __pycache__ directory
+/__pycache__/
+
+# Ignore all files in the .venv directory
+/.venv/
+
+# Ignore all files in the .vscode directory
+/.vscode/
+
+# Ignore all files with the .egg extension
+*.egg
+
+# Ignore all files with the .egg-info extension
+*.egg-info
+
+# Ignore all files with the .log extension
+*.log
+
+# Ignore all files with the .pyc extension
+*.pyc
+
+# Ignore all files with the .pyo extension
+*.pyo
+
+# Ignore all files with the .sqlite extension
+*.sqlite
+
+# Ignore all files with the .sqlite-shm extension
+*.sqlite-shm
+
+# Ignore all files with the .sqlite-wal extension
+*.sqlite-wal
+
+# Ignore all files with the .zip extension
+*.zip
+
+# Ignore all directories with the .git directory
+/.git/
+
+# Ignore all directories with the .idea directory
+/.idea/
+
+# Ignore all directories with the .tox directory
+/.tox/
+
+# Ignore all directories with the .venv directory
+/.venv/
+
+# Ignore all directories with the .vscode directory
+/.vscode/
+
+# Ignore all directories with the dist directory
+/dist/
+
+# Ignore all directories with the node_modules directory
+/node_modules/
+
+# Ignore all directories with the __pycache__ directory
+/__pycache__/
+
+# Ignore all directories with the .pytest_cache directory
+/.pytest_cache/
+
+# Ignore all files with the .coverage extension
+*.coverage
+
+# Ignore all files with the .cache extension
+*.cache
+
+# Ignore all files with the .egg-info extension
+*.egg-info
+
+# Ignore all files with the .log extension
+*.log
+
+# Ignore all files with the .pyc extension
+*.pyc
+
+# Ignore all files with the .pyo extension
+*.pyo
+
+# Ignore all files with the .sqlite extension
+*.sqlite
+
+# Ignore all files with the .sqlite-shm extension
+*.sqlite-shm
+
+# Ignore all files with the .sqlite-wal extension
+*.sqlite-wal
+
+# Ignore all files with the .zip extension
+*.zip
