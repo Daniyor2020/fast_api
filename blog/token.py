@@ -1,9 +1,7 @@
 
 from datetime import datetime, timedelta, timezone
 from jose import jwt, JWTError
-
-from blog import schemas
-
+from .schemas import TokenData
 
 # to get a string like this run:
 # openssl rand -hex 32
@@ -27,6 +25,6 @@ def verify_token(token: str, credentials_exception):
         email: str = payload.get("sub")
         if email is None:
             raise credentials_exception
-        token_data = schemas.TokenData(email=email)
+        token_data = TokenData(email=email)
     except JWTError:
         raise credentials_exception
